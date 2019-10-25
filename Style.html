@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Changing style elements using Javascript</h1>
+    <p id="demo">The following text is normal, see what javascript can do</p>
+    <button type="button" onclick="myStyle()">Click to see the change</button>
+    <br />
+    <br />
+    <p id="display">This text will not be seen after clicking the button</p>
+    <p id="show" style="display: none;">
+      This text will not be seen after clicking the button
+    </p>
+
+    <button type="button" onclick="hideDisplay()">
+      Click to hide
+    </button>
+    <button type="button" onclick="showDisplay()">Click to show hidden</button>
+
+    <br />
+
+    <script src="style.js"></script>
+  </body>
+</html>
